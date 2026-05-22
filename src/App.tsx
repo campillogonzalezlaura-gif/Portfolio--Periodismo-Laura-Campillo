@@ -443,7 +443,7 @@ export default function App() {
 
               {/* Filter Tabs */}
               <div className="flex flex-wrap gap-2 mt-6 md:mt-0">
-                {["Todos", "Proyectos", "Prensa Digital", "Escritura Creativa"].map((cat) => (
+                {["Todos", "Prensa Digital", "Escritura Creativa"].map((cat) => (
                   <button
                     key={cat}
                     onClick={() => setSelectedCategory(cat)}
